@@ -57,11 +57,11 @@ backend/data/*
 *.db-wal
 !backend/data/retailedge.db
 
-# Trained weights and training runs (configs and model cards stay tracked)
-*.pt
-*.pth
-*.onnx
-*.engine
-backend/ml/runs/
+# Training logs stay local. Model weights are tracked.
+backend/ml/runs/*
+!backend/ml/runs/shelf-sku110k-v1/
+backend/ml/runs/shelf-sku110k-v1/*
+!backend/ml/runs/shelf-sku110k-v1/weights/
+backend/ml/runs/shelf-sku110k-v1/weights/*
+!backend/ml/runs/shelf-sku110k-v1/weights/*.pt
 backend/runs/
-backend/weights/
