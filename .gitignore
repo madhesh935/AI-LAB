@@ -49,11 +49,13 @@ backend/.pytest_cache/
 htmlcov/
 *.egg-info/
 
-# Runtime data: SQLite, logs, backups, datasets
-backend/data/
+# Runtime data: logs, backups, and datasets stay local.
+# The store database is tracked so a clone has the catalog and layout.
+backend/data/*
 *.db
 *.db-shm
 *.db-wal
+!backend/data/retailedge.db
 
 # Trained weights and training runs (configs and model cards stay tracked)
 *.pt
