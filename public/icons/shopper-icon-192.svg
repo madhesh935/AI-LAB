@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="40" fill="#2563EB"/>
+  <rect x="20" y="20" width="152" height="152" rx="30" fill="url(#shoppergrad)" opacity="0.15"/>
+  <defs>
+    <linearGradient id="shoppergrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#93C5FD"/>
+    </linearGradient>
+  </defs>
+  <!-- Shopping Bag / Basket Graphic -->
+  <path d="M52 74H140L132 144H60L52 74Z" fill="#FFFFFF"/>
+  <path d="M72 74V56C72 43.8497 81.8497 34 94 34H98C110.15 34 120 43.8497 120 56V74" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <circle cx="96" cy="106" r="14" fill="#2563EB"/>
+  <path d="M91 106L94.5 109.5L101 102.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Status Indicator Dot -->
+  <circle cx="140" cy="54" r="10" fill="#16A34A" stroke="#2563EB" stroke-width="4"/>
+</svg>

@@ -1,0 +1,171 @@
+{
+ "passed": 33,
+ "failed": 0,
+ "results": [
+  {
+   "name": "admin: Overview loads (/)",
+   "ok": true,
+   "detail": "{\"chars\":3197,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/stores\",\"/api/cameras\",\"/api/stores/:id/overview\",\"/api/stores/:id/cameras/timeline\"]}"
+  },
+  {
+   "name": "admin: Shopper Analytics loads (/shopper-analytics)",
+   "ok": true,
+   "detail": "{\"chars\":1971,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/stores\",\"/api/stores/:id/:id\",\"/api/stores/:id/dwell\",\"/api/stores/:id/movement\",\"/api/stores/:id/zones\",\"/api/stores/:id/overview\"]}"
+  },
+  {
+   "name": "admin: Smart Inventory loads (/smart-inventory)",
+   "ok": true,
+   "detail": "{\"chars\":3876,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/stores\",\"/api/stores/:id/inventory\",\"/api/stores/:id/tasks\",\"/api/stores/:id/cameras\",\"/api/stores/:id/staff\",\"/api/stores/:id/overview\",\"/api/stores/:id/reports/summary/full\",\"/api/cameras\"]}"
+  },
+  {
+   "name": "admin: Queue Intelligence loads (/queue-intelligence)",
+   "ok": true,
+   "detail": "{\"chars\":2684,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/stores\",\"/api/stores/:id/:id\",\"/api/stores/:id/cameras\",\"/api/stores/:id/queue/history\",\"/api/stores/:id/staff\",\"/api/stores/:id/staff/recommendations\",\"/api/stores/:id/overview\",\"/api/cameras\"]}"
+  },
+  {
+   "name": "admin: AI Insights loads (/ai-insights)",
+   "ok": true,
+   "detail": "{\"chars\":1298,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/stores\",\"/api/stores/:id/insights\",\"/api/stores/:id/overview\"]}"
+  },
+  {
+   "name": "admin: Reports loads (/reports)",
+   "ok": true,
+   "detail": "{\"chars\":1398,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/stores\",\"/api/stores/:id/reports/summary/full\",\"/api/stores/:id/overview\"]}"
+  },
+  {
+   "name": "admin: Staff Management loads (/staff-management)",
+   "ok": true,
+   "detail": "{\"chars\":2543,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/stores\",\"/api/stores/:id/shifts\",\"/api/stores/:id/staff\",\"/api/stores/:id/staff/workload\",\"/api/stores/:id/tasks\",\"/api/stores/:id/attendance\",\"/api/stores/:id/staff/availability\",\"/api/stores/:id/staff/recommendations\",\"/api/stores/:id/overview\"]}"
+  },
+  {
+   "name": "admin: Store Copilot loads (/store-copilot)",
+   "ok": true,
+   "detail": "{\"chars\":1208,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/stores\",\"/api/copilot/conversations\",\"/api/stores/:id/overview\",\"/api/copilot/health\"]}"
+  },
+  {
+   "name": "pwa: Staff login loads (/staff/login)",
+   "ok": true,
+   "detail": "{\"chars\":349,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgb(248, 250, 252)\",\"apiPaths\":[\"/api/public/stores\",\"/api/stores/:id/staff\"]}"
+  },
+  {
+   "name": "pwa: Customer home loads (/customer)",
+   "ok": true,
+   "detail": "{\"chars\":848,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/public/stores\",\"/api/public/stores/:id/layout\",\"/api/public/stores/:id/queues\",\"/api/public/stores/:id/offers\",\"/api/public/stores/:id/products\"]}"
+  },
+  {
+   "name": "pwa: Customer products loads (/customer/products)",
+   "ok": true,
+   "detail": "{\"chars\":628,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/public/stores\",\"/api/public/stores/:id/offers\",\"/api/public/stores/:id/layout\",\"/api/public/stores/:id/queues\",\"/api/public/stores/:id/products\"]}"
+  },
+  {
+   "name": "pwa: Customer map loads (/customer/map)",
+   "ok": true,
+   "detail": "{\"chars\":320,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/public/stores\",\"/api/public/stores/:id/layout\",\"/api/public/stores/:id/offers\",\"/api/public/stores/:id/products\",\"/api/public/stores/:id/queues\"]}"
+  },
+  {
+   "name": "pwa: Customer queues loads (/customer/queues)",
+   "ok": true,
+   "detail": "{\"chars\":563,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/public/stores\",\"/api/public/stores/:id/offers\",\"/api/public/stores/:id/queues\",\"/api/public/stores/:id/layout\",\"/api/public/stores/:id/products\"]}"
+  },
+  {
+   "name": "pwa: Customer help loads (/customer/help)",
+   "ok": true,
+   "detail": "{\"chars\":959,\"jsErrors\":0,\"consoleErrors\":0,\"badApi\":[],\"overflowDesktopPx\":0,\"overflowPhonePx\":0,\"bodyBg\":\"rgb(248, 250, 252)\",\"mainBg\":\"rgba(0, 0, 0, 0)\",\"apiPaths\":[\"/api/public/stores\",\"/api/public/stores/:id/offers\",\"/api/public/stores/:id/queues\",\"/api/public/stores/:id/layout\",\"/api/public/stores/:id/products\"]}"
+  },
+  {
+   "name": "copilot: telemetry footfall == overview API",
+   "ok": true,
+   "detail": "panel=1,038 api=1038"
+  },
+  {
+   "name": "copilot: telemetry open tasks == overview API",
+   "ok": true,
+   "detail": "panel=3 api=3"
+  },
+  {
+   "name": "copilot: telemetry panel other tiles rendered",
+   "ok": true,
+   "detail": "{\"footfall\":\"1,038\",\"tasks\":\"3\",\"lowstock\":\"4 shelves\",\"wait\":\"2.6 min\",\"cameras\":\"0/4 live\",\"occupancy\":\"77\"}"
+  },
+  {
+   "name": "copilot: central chat + right telemetry panel present",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "copilot: status chip reflects the real Ollama probe",
+   "ok": true,
+   "detail": "status=\"AI Online\" model=\"qwen3:4b-instruct-2507-q4_K_M · local\""
+  },
+  {
+   "name": "copilot: queue answer names the counter the queue API reports as worst",
+   "ok": true,
+   "detail": "3.8s expected=\"Counter 2 (Standard Billing)\""
+  },
+  {
+   "name": "copilot: restock answer lists shelves from the inventory API",
+   "ok": true,
+   "detail": "5.0s expected>=Shelf A4-FMCG,Shelf B2-Bakery,Shelf C1-Snacks"
+  },
+  {
+   "name": "copilot: unavailable metric is not invented",
+   "ok": true,
+   "detail": "1.3s"
+  },
+  {
+   "name": "copilot: write request shows a confirmation card (no execution yet)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "copilot: database unchanged before confirmation",
+   "ok": true,
+   "detail": "3 -> 3"
+  },
+  {
+   "name": "copilot: Approve persists exactly one task and shows the real result",
+   "ok": true,
+   "detail": "3 -> 4; card=\"Done - confirmed in the database Task TSK-CC7593 created and assigned to Siddharth Rao Reference TSK-CC7593\""
+  },
+  {
+   "name": "copilot: telemetry open-tasks refreshed to the new API value",
+   "ok": true,
+   "detail": "panel=4 api=4 (was 3)"
+  },
+  {
+   "name": "copilot: new task visible on Staff Management",
+   "ok": true,
+   "detail": "task TSK-CC7593 title=\"Replenish Shelf E1-Coffee\" shelf=\"Shelf E1-Coffee\" assignee=\"Siddharth Rao\""
+  },
+  {
+   "name": "copilot: recent chats come from SQLite and survive a reload",
+   "ok": true,
+   "detail": "api conversations=1; menu=\"New chat RECENT CHATS - BLR-IND-104 Which checkout counter is congested righ... Chats are saved in the local database an\""
+  },
+  {
+   "name": "copilot: new chat starts with no assistant answers on screen",
+   "ok": true,
+   "detail": "assistant answers on screen = 0"
+  },
+  {
+   "name": "copilot: Stop control available while generating",
+   "ok": true,
+   "detail": "clicked"
+  },
+  {
+   "name": "copilot: no JS errors / failed API calls during the whole Copilot session",
+   "ok": true,
+   "detail": "{\"pageErrors\":[],\"badApi\":[]}"
+  },
+  {
+   "name": "customer PWA: calls only public endpoints (no staff/camera/copilot data)",
+   "ok": true,
+   "detail": "{\"paths\":[\"/api/public/stores\",\"/api/public/stores/:id/layout\",\"/api/public/stores/:id/queues\",\"/api/public/stores/:id/products\",\"/api/public/stores/:id/offers\"],\"internal\":[]}"
+  },
+  {
+   "name": "customer PWA: queue page renders without errors",
+   "ok": true,
+   "detail": "chars=563"
+  }
+ ]
+}

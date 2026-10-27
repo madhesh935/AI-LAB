@@ -1,0 +1,16 @@
+{
+ "camera": "cam-store-blr-104-cam-01",
+ "frames": 122,
+ "received_fps": 10.2,
+ "capture_to_received_ms": {
+  "median": 1.8,
+  "p95": 2.5,
+  "max": 19072.4
+ },
+ "capture_to_encoded_ms_median": 1.1,
+ "detection_lag_frames": {
+  "median": 1,
+  "max": 1
+ },
+ "inference_ms_median": 27.8
+}

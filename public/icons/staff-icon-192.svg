@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="40" fill="#2563EB"/>
+  <rect x="20" y="20" width="152" height="152" rx="30" fill="url(#grad)" opacity="0.15"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+  <!-- Briefcase & Badge Graphic -->
+  <rect x="44" y="68" width="104" height="72" rx="14" fill="#FFFFFF" shadow="0 4px 12px rgba(0,0,0,0.15)"/>
+  <path d="M72 68V54C72 47.3726 77.3726 42 84 42H108C114.627 42 120 47.3726 120 54V68" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M44 94H148" stroke="#E2E8F0" stroke-width="3"/>
+  <rect x="84" y="86" width="24" height="16" rx="4" fill="#2563EB"/>
+  <!-- Status Indicator Dot -->
+  <circle cx="138" cy="54" r="10" fill="#10B981" stroke="#2563EB" stroke-width="4"/>
+</svg>

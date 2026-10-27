@@ -1,0 +1,59 @@
+{
+ "input": "people-detection.mp4 (prerecorded, DEMO footage)",
+ "groundTruth": {
+  "entries": 1,
+  "exits": 2,
+  "crossings": 3
+ },
+ "worker": {
+  "ok": true,
+  "workerId": "64c8da6f3156",
+  "device": "cuda:0",
+  "modelsReady": 1
+ },
+ "footfallBefore": 1038,
+ "cameraBecameLiveAfterSeconds": 1.1,
+ "websocketEventTypes": {
+  "hello": 1,
+  "snapshot": 1,
+  "camera.frame": 162,
+  "person.detected": 8,
+  "footfall.updated": 2,
+  "occupancy.updated": 2,
+  "alert.created": 1,
+  "camera.disconnected": 1,
+  "camera.status": 1,
+  "heartbeat": 1
+ },
+ "footfallUpdatedEvents": 2,
+ "occupancy": {
+  "estimate": 0,
+  "status": "uncertain",
+  "entriesSinceReset": 1,
+  "exitsSinceReset": 1,
+  "reason": "entrance camera offline: crossings are being missed"
+ },
+ "overview": {
+  "totalFootfallToday": 1039,
+  "currentOccupancy": 0,
+  "occupancyStatus": "uncertain",
+  "latestObservationAt": "2026-10-26T11:28:46.948507Z"
+ },
+ "shopperAnalytics": {
+  "totalEntries": 1039,
+  "totalExits": 962,
+  "dataState": "available"
+ },
+ "crossingEventsInSQLite": 2,
+ "websocketDelaySeconds": {
+  "n": 4,
+  "median": 0.001,
+  "max": 0.001
+ },
+ "verdict": {
+  "entryErrorVsTruth": 0,
+  "exitErrorVsTruth": -1,
+  "overviewMatchesOccupancy": true,
+  "note": "one 50 s clip with 3 crossings: a smoke-level check, not an accuracy estimate"
+ }
+}

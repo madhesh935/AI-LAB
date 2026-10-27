@@ -1,0 +1,50 @@
+{
+  "models": [
+    {
+      "id": "person-yolo11n",
+      "name": "YOLO11n person detector",
+      "version": "11.0",
+      "task": "person_detection",
+      "path": "person/yolo11n.pt",
+      "runtime": "ultralytics",
+      "inputSize": 416,
+      "labels": [
+        "person"
+      ],
+      "confidenceThreshold": 0.35,
+      "device": "auto",
+      "enabled": true,
+      "license": "AGPL-3.0 (Ultralytics YOLO11 pretrained COCO weights)",
+      "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "notes": "Official pretrained COCO checkpoint; class 0 (person) only. No training performed."
+    },
+    {
+      "id": "shelf-monitor",
+      "name": "Shelf product detector (shelf-sku110k-v1)",
+      "version": "shelf-sku110k-v1",
+      "task": "shelf_monitoring",
+      "path": "shelf/shelf-sku110k-v1/weights/best.pt",
+      "runtime": "ultralytics",
+      "enabled": true,
+      "notes": "Fine-tuned on a validated shelf dataset; see shelf-sku110k-v1/model_card.json",
+      "inputSize": 512,
+      "labels": [
+        "item"
+      ],
+      "confidenceThreshold": 0.3,
+      "device": "auto",
+      "license": "AGPL-3.0 (Ultralytics fine-tune of YOLO11 pretrained weights)",
+      "sha256": "569d9f01af0f225cd4f549d9af5b3f99ac9552aea0bfba74e183c143355c03d7"
+    },
+    {
+      "id": "demand-forecast",
+      "name": "Demand forecasting model",
+      "version": "0",
+      "task": "forecasting",
+      "path": null,
+      "runtime": null,
+      "enabled": false,
+      "notes": "Not configured (later phase)."
+    }
+  ]
+}

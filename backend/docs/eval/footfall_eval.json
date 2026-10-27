@@ -1,0 +1,100 @@
+{
+ "video": "people-detection.mp4",
+ "frames": 596,
+ "line_in_side": "negative",
+ "tolerance_frames": 8,
+ "ground_truth": {
+  "entries": 1,
+  "exits": 2
+ },
+ "measured": {
+  "entries": 1,
+  "exits": 1,
+  "suppressed_by_hysteresis": 0
+ },
+ "crossing_matches": {
+  "true_positive": 2,
+  "false_positive": 0,
+  "false_negative": 1,
+  "precision": 1.0,
+  "recall": 0.667,
+  "timing_error_frames": [
+   4,
+   8
+  ]
+ },
+ "system_crossings": [
+  [
+   40,
+   "in"
+  ],
+  [
+   199,
+   "out"
+  ]
+ ],
+ "truth_crossings": [
+  [
+   36,
+   "in"
+  ],
+  [
+   191,
+   "out"
+  ],
+  [
+   525,
+   "out"
+  ]
+ ],
+ "entry_count_error": 0,
+ "exit_count_error": -1,
+ "dwell": [
+  {
+   "who": "woman, dark dress (feet cross y=0.78 aro",
+   "truth_s": 2.96,
+   "measured_s": 2.58,
+   "error_s": -0.38,
+   "entry_time_error_s": 0.04
+  },
+  {
+   "who": "man, white shirt (feet cross y=0.78 arou",
+   "truth_s": 1.5,
+   "measured_s": 1.17,
+   "error_s": -0.33,
+   "entry_time_error_s": 0.12
+  }
+ ],
+ "all_zone_visits": [
+  {
+   "enter_s": 3.0,
+   "dwell_s": 2.58
+  },
+  {
+   "enter_s": 17.17,
+   "dwell_s": 1.83
+  },
+  {
+   "enter_s": 17.0,
+   "dwell_s": 2.58
+  },
+  {
+   "enter_s": 30.42,
+   "dwell_s": 1.92
+  },
+  {
+   "enter_s": 31.08,
+   "dwell_s": 1.33
+  },
+  {
+   "enter_s": 30.25,
+   "dwell_s": 3.17
+  },
+  {
+   "enter_s": 44.75,
+   "dwell_s": 1.17
+  }
+ ],
+ "incomplete_visits": 0,
+ "note": "one clip, 8 people, 3 crossings: this is a smoke-level check, NOT a statistically meaningful accuracy estimate"
+}

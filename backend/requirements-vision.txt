@@ -1,0 +1,20 @@
+# Vision worker (Phase 2). Versions below are the ones the measurements in docs/PHASE2_REPORT.md were taken with.
+# Install into backend/.venv only - never globally.
+#
+# PyTorch must match the machine. CUDA 12.8 build (NVIDIA GPU, e.g. RTX 4050):
+#     .venv/Scripts/python -m pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+# CPU-only machines: drop the --index-url flag (the worker falls back to CPU automatically).
+# No system-wide CUDA toolkit is needed - the wheel ships its own CUDA runtime; only the NVIDIA driver is required.
+torch==2.11.0
+torchvision==0.26.0
+ultralytics==8.4.129        # AGPL-3.0 - see ai_models/README.md before any distribution
+opencv-python==5.0.0.93     # FFmpeg-enabled VideoCapture (RTSP / HTTP / files). Do NOT also install opencv-python-headless.
+numpy>=2.0
+scipy>=1.11
+lap>=0.5.12                 # linear assignment used by ByteTrack
+psutil>=5.9
+
+# Phase 3 (shelf tooling / evaluation)
+onnx>=1.17             # ONNX export of trained shelf models
+scikit-learn>=1.5      # only used by scripts/train_queue_forecaster.py (refuses without real history)
+onnxruntime>=1.20

@@ -1,0 +1,48 @@
+{
+ "hours": 4.0,
+ "seed": 1,
+ "customers": 497,
+ "detection_dropout": 0.03,
+ "sampling_hz": 5.0,
+ "count": {
+  "samples": 2856,
+  "mae_customers": 0.184,
+  "exact_match_rate": 0.83,
+  "max_error": 4
+ },
+ "service_rate": {
+  "measured_per_min": 2.795,
+  "true_per_min": 2.727
+ },
+ "wait": {
+  "samples": 1122,
+  "mae_seconds": 24.0,
+  "mean_true_wait_seconds": 67.0,
+  "note": "estimate at an arrival moment vs that arrival's realised wait; mismatch includes future arrivals/service variance the baseline cannot know"
+ },
+ "forecast": {
+  "5min": {
+   "points": 233,
+   "mae_model": 2.33,
+   "mae_persistence": 1.93,
+   "rmse_model": 3.65,
+   "model_beats_persistence": false
+  },
+  "10min": {
+   "points": 228,
+   "mae_model": 3.57,
+   "mae_persistence": 2.68,
+   "rmse_model": 5.7,
+   "model_beats_persistence": false
+  },
+  "15min": {
+   "points": 223,
+   "mae_model": 4.19,
+   "mae_persistence": 2.99,
+   "rmse_model": 7.07,
+   "model_beats_persistence": false
+  }
+ },
+ "forecast_selection": "persistence-v1 is the default forecast: on this simulation (6 seeds) drift-based variants (fluid, damped, gated, trend) all had higher MAE; model_beats_persistence below refers to the fluid diagnostic",
+ "forecast_note": "L(h)=max(0, L0+(lambda-mu)*h) vs persistence on a SIMULATED series with alternating calm/rush half-hours; real checkout history is required before any ML model is justified"
+}

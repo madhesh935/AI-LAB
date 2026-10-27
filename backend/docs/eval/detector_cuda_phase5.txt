@@ -1,0 +1,22 @@
+  "ram_total_gb": 23.7,
+  "nvidia_gpu": {
+   "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+   "memory_mb": 6141.0,
+   "driver": "591.66"
+  }
+ }
+}
+{
+ "mode": "detector",
+ "device": "cuda:0",
+ "path": "cuda-graph",
+ "video": "people-detection.mp4",
+ "frames": 200,
+ "model_load_seconds": 16.6,
+ "throughput_fps": 112.9,
+ "decode_ms_p50": 0.46,
+ "latency_ms": {
+  "total": {
+   "p50": 6.3,
+   "p95": 11.46,
+   "max": 84.6

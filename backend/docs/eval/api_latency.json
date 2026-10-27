@@ -1,0 +1,149 @@
+{
+ "requestsPerEndpoint": 100,
+ "note": "sequential, one keep-alive connection, localhost, seeded DEMO database, no vision worker, no LLM",
+ "endpoints": [
+  {
+   "path": "/api/health",
+   "status": [
+    200
+   ],
+   "bytes": 70,
+   "min_ms": 2.3,
+   "median_ms": 2.9,
+   "p95_ms": 3.9,
+   "max_ms": 4.8
+  },
+  {
+   "path": "/api/stores",
+   "status": [
+    200
+   ],
+   "bytes": 747,
+   "min_ms": 2.9,
+   "median_ms": 3.8,
+   "p95_ms": 4.8,
+   "max_ms": 6.6
+  },
+  {
+   "path": "/api/stores/store-blr-104/overview",
+   "status": [
+    200
+   ],
+   "bytes": 14511,
+   "min_ms": 28.9,
+   "median_ms": 32.7,
+   "p95_ms": 39.9,
+   "max_ms": 44.3
+  },
+  {
+   "path": "/api/stores/store-blr-104/occupancy",
+   "status": [
+    200
+   ],
+   "bytes": 768,
+   "min_ms": 4.0,
+   "median_ms": 5.1,
+   "p95_ms": 6.6,
+   "max_ms": 7.3
+  },
+  {
+   "path": "/api/stores/store-blr-104/shopper-analytics?range=today",
+   "status": [
+    200
+   ],
+   "bytes": 3091,
+   "min_ms": 10.2,
+   "median_ms": 12.3,
+   "p95_ms": 15.1,
+   "max_ms": 17.1
+  },
+  {
+   "path": "/api/stores/store-blr-104/inventory",
+   "status": [
+    200
+   ],
+   "bytes": 8733,
+   "min_ms": 13.4,
+   "median_ms": 15.9,
+   "p95_ms": 19.0,
+   "max_ms": 20.5
+  },
+  {
+   "path": "/api/stores/store-blr-104/queue-intelligence",
+   "status": [
+    200
+   ],
+   "bytes": 5185,
+   "min_ms": 8.5,
+   "median_ms": 9.9,
+   "p95_ms": 12.7,
+   "max_ms": 14.2
+  },
+  {
+   "path": "/api/stores/store-blr-104/staff/availability",
+   "status": [
+    200
+   ],
+   "bytes": 3346,
+   "min_ms": 16.3,
+   "median_ms": 18.8,
+   "p95_ms": 23.3,
+   "max_ms": 25.4
+  },
+  {
+   "path": "/api/stores/store-blr-104/tasks?limit=50",
+   "status": [
+    200
+   ],
+   "bytes": 2872,
+   "min_ms": 6.3,
+   "median_ms": 7.3,
+   "p95_ms": 9.0,
+   "max_ms": 10.0
+  },
+  {
+   "path": "/api/stores/store-blr-104/alerts?status=active",
+   "status": [
+    200
+   ],
+   "bytes": 1689,
+   "min_ms": 4.5,
+   "median_ms": 5.6,
+   "p95_ms": 7.4,
+   "max_ms": 9.1
+  },
+  {
+   "path": "/api/stores/store-blr-104/insights",
+   "status": [
+    200
+   ],
+   "bytes": 887,
+   "min_ms": 4.2,
+   "median_ms": 5.0,
+   "p95_ms": 7.0,
+   "max_ms": 7.6
+  },
+  {
+   "path": "/api/copilot/health",
+   "status": [
+    200
+   ],
+   "bytes": 1223,
+   "min_ms": 1.7,
+   "median_ms": 2.0,
+   "p95_ms": 2.7,
+   "max_ms": 4.1
+  },
+  {
+   "path": "/api/system/health",
+   "status": [
+    200
+   ],
+   "bytes": 3271,
+   "min_ms": 21.9,
+   "median_ms": 32.3,
+   "p95_ms": 50.1,
+   "max_ms": 62.7
+  }
+ ]
+}
